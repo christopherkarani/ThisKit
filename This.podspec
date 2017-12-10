@@ -17,16 +17,16 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+  s.description      = 'This is an Elegant Syntactic Initializer, This allows developers to quickly create objects and initialize their values straight away. Using This also cleans up your code and makes it more readable'
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/chrisbkarani@gmail.com/This'
+  s.homepage         = 'https://github.com/chrisbkarani/ThisKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'chrisbkarani@gmail.com' => 'chrisbkarani@gmail.com' }
-  s.source           = { :git => 'https://github.com/chrisbkarani@gmail.com/This.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Chris Karani' => 'chrisbkarani@gmail.com' }
+  s.source           = { :git => 'https://github.com/chrisbkarani/ThisKit.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/cbkarani'
 
   s.ios.deployment_target = '8.0'
 
