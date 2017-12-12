@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'This'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of This.'
+  s.version          = '1.0.0'
+  s.summary          = 'Elegant Syntactic Initializer'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,9 +18,6 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'This is an Elegant Syntactic Initializer, This allows developers to quickly create objects and initialize their values straight away. Using This also cleans up your code and makes it more readable'
-TODO: Add long description of the pod here.
-                       DESC
-
   s.homepage         = 'https://github.com/chrisbkarani/ThisKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

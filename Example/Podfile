@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'This_Example' do
-  pod 'This', :path => '../'
+  pod 'This', :path => 'https://github.com/chrisbkarani/ThisKit.git'
 
   target 'This_Tests' do
     inherit! :search_paths
